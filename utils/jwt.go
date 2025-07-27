@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"OJ-API/config"
 	"sync"
 	"time"
+
+	"github.com/Only-Juice/OJ-API/config"
 
 	"github.com/golang-jwt/jwt/v5"
 )

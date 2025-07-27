@@ -1,12 +1,6 @@
 package main
 
 import (
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
-	pb "OJ-API/proto"
-	"OJ-API/sandbox"
-	"OJ-API/utils"
 	"context"
 	"fmt"
 	"io"
@@ -17,6 +11,13 @@ import (
 	"strconv"
 	"syscall"
 	"time"
+
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	pb "github.com/Only-Juice/OJ-API/proto"
+	"github.com/Only-Juice/OJ-API/sandbox"
+	"github.com/Only-Juice/OJ-API/utils"
 
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"

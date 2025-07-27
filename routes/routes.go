@@ -8,10 +8,10 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 
-	_ "OJ-API/docs"
-	"OJ-API/handlers"
-	"OJ-API/models"
-	"OJ-API/utils"
+	_ "github.com/Only-Juice/OJ-API/docs"
+	"github.com/Only-Juice/OJ-API/handlers"
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 func AuthMiddleware(required ...bool) gin.HandlerFunc {

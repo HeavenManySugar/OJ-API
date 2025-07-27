@@ -10,11 +10,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
-	"OJ-API/services"
-	"OJ-API/utils"
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/services"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 type Score struct {

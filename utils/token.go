@@ -9,9 +9,9 @@ import (
 	"io"
 	"sync"
 
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
 )
 
 var (

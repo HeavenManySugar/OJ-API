@@ -1,12 +1,13 @@
 package sandbox
 
 import (
-	"OJ-API/utils"
 	"errors"
 	"fmt"
 	"os"
 	"runtime"
 	"time"
+
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 const CodeStorageFolder = "/sandbox/code"

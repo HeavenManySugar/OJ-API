@@ -1,4 +1,4 @@
-module OJ-API
+module github.com/Only-Juice/OJ-API
 
 go 1.23.5
 

@@ -1,10 +1,11 @@
 package utils
 
 import (
-	"OJ-API/config"
 	"fmt"
 	"log"
 	"os"
+
+	"github.com/Only-Juice/OJ-API/config"
 )
 
 type LogLevel int

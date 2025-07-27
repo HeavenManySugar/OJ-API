@@ -8,7 +8,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"OJ-API/config"
+	"github.com/Only-Juice/OJ-API/config"
 )
 
 // DBConn is a pointer to gorm.DB

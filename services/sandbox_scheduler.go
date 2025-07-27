@@ -1,13 +1,14 @@
 package services
 
 import (
-	pb "OJ-API/proto"
-	"OJ-API/utils"
 	"fmt"
 	"io"
 	"sort"
 	"sync"
 	"time"
+
+	pb "github.com/Only-Juice/OJ-API/proto"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 // SandboxInstance 表示一個沙箱實例

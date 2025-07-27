@@ -1,8 +1,9 @@
 package services
 
 import (
-	pb "OJ-API/proto"
 	"sync"
+
+	pb "github.com/Only-Juice/OJ-API/proto"
 )
 
 // SandboxClientManager 管理全局的 sandbox 調度

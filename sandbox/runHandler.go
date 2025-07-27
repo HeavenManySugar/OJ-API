@@ -1,9 +1,6 @@
 package sandbox
 
 import (
-	"OJ-API/database"
-	"OJ-API/models"
-	"OJ-API/utils"
 	"bytes"
 	"context"
 	"fmt"
@@ -12,6 +9,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 const execTimeoutDuration = time.Second * 60

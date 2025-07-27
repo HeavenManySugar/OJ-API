@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
-	"OJ-API/utils"
 	"net/http"
+
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/utils"
 
 	"code.gitea.io/sdk/gitea"
 	"github.com/gin-gonic/gin"

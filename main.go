@@ -15,13 +15,13 @@ import (
 	"golang.org/x/net/http2/h2c"
 	"google.golang.org/grpc"
 
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
-	pb "OJ-API/proto"
-	"OJ-API/routes"
-	"OJ-API/services"
-	"OJ-API/utils"
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	pb "github.com/Only-Juice/OJ-API/proto"
+	"github.com/Only-Juice/OJ-API/routes"
+	"github.com/Only-Juice/OJ-API/services"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 // @title			OJ-PoC API

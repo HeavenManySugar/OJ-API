@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sandbox;
 
-option go_package = "OJ-API/proto/sandbox";
+option go_package = "github.com/Only-Juice/OJ-API/proto/sandbox";
 
 // 沙箱狀態請求
 message SandboxStatusRequest {}

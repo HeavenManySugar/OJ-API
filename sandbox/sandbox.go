@@ -1,12 +1,13 @@
 package sandbox
 
 import (
-	"OJ-API/models"
-	"OJ-API/utils"
 	"fmt"
 	"os/exec"
 	"sync"
 	"time"
+
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/utils"
 
 	"golang.design/x/lockfree"
 )

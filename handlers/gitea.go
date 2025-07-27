@@ -8,10 +8,10 @@ import (
 	"code.gitea.io/sdk/gitea"
 	"github.com/gin-gonic/gin"
 
-	"OJ-API/config"
-	"OJ-API/database"
-	"OJ-API/models"
-	"OJ-API/utils"
+	"github.com/Only-Juice/OJ-API/config"
+	"github.com/Only-Juice/OJ-API/database"
+	"github.com/Only-Juice/OJ-API/models"
+	"github.com/Only-Juice/OJ-API/utils"
 )
 
 type BasicAuthentication struct {
@@ -68,9 +68,9 @@ func PostBasicAuthenticationGitea(c *gin.Context) {
 	}
 
 	if existingUser.GiteaToken == "" {
-		client.DeleteAccessToken("OJ-API")
+		client.DeleteAccessToken("github.com/Only-Juice/OJ-API")
 		token, _, err := client.CreateAccessToken(gitea.CreateAccessTokenOption{
-			Name:   "OJ-API",
+			Name:   "github.com/Only-Juice/OJ-API",
 			Scopes: []gitea.AccessTokenScope{gitea.AccessTokenScopeAll},
 		})
 		if err != nil {
@@ -108,9 +108,9 @@ func PostBasicAuthenticationGitea(c *gin.Context) {
 	}
 	_, _, err = client_check.GetMyUserInfo()
 	if err != nil || fail {
-		client.DeleteAccessToken("OJ-API")
+		client.DeleteAccessToken("github.com/Only-Juice/OJ-API")
 		newToken, _, err := client.CreateAccessToken(gitea.CreateAccessTokenOption{
-			Name:   "OJ-API",
+			Name:   "github.com/Only-Juice/OJ-API",
 			Scopes: []gitea.AccessTokenScope{gitea.AccessTokenScopeAll},
 		})
 		if err != nil {
